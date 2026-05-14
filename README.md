@@ -146,7 +146,7 @@ MD_Protein_Workflow/
 │   ├── 05_md_extend.sbatch              optional: extend production by N ps
 │   └── 06_trajectory.sbatch
 │
-└── logs/                                created at run-time (in .gitignore)
+└── logs/                                SLURM stdout/stderr land here at run-time (.gitkeep only; *.out/*.err in .gitignore)
 ```
 
 ---
